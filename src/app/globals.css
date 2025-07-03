@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+  --background-gradient: linear-gradient(to right, #f3f4f6, #4fd1c5);
+  --text-color: #1e293b;
+  --accent-color: #319795;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-gradient: linear-gradient(to right, #1a202c, #234e52);
+    --text-color: #e2e8f0;
+    --accent-color: #4fd1c5;
+  }
+}
+
+
+/* this does not work */
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(to right, #f3f4f6, #4fd1c5);
+  color: var(--text-color, #1e293b); /* fallback in case var not loaded */
+  font-family: 'Geist Mono', monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: linear-gradient(to right, #1a202c, #234e52);
+    color: var(--text-color, #e2e8f0);
+    font-family: 'Geist Mono', monospace;
+  }
+}
+
+
+a {
+  color: var(--accent-color);
+}
