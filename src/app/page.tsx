@@ -1,6 +1,7 @@
 "use client";
 import Navbar from "@/components/Navbar";
 import Home from "@/components/Home";
+import About from "@/components/About";
 import Certifications from "@/components/Certifications";
 import Education from "@/components/Education";
 import Experience from "@/components/Experience";
@@ -11,9 +12,12 @@ export default function Main() {
   return (
     <>
       <Navbar />
-      <main className="scroll-smooth pt-15">
+      <main className="scroll-smooth">
         <section id="home" className="min-h-screen">
           <Home />
+        </section>
+        <section id="about" className="min-h-screen">
+          <About />
         </section>
         <section id="education" className="min-h-screen">
           <Education />

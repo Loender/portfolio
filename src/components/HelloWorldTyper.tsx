@@ -49,7 +49,7 @@ export default function HelloWorldTyper() {
   }, [charIndex, greetIndex, isTyping]);
 
   return (
-    <div className="text-3xl font-mono h-12">
+    <div className="text-3xl text-emerald-600 font-mono h-12">
       <span>{text}</span>
       <span className="blinking-cursor">|</span>
 
