@@ -28,7 +28,7 @@ const About = () => {
             <div className="flex flex-col gap-2">
               <div className="flex items-center gap-2">
                 <img
-                  src="/linkedin.png"
+                  src="linkedin.png"
                   alt="LinkedIn"
                   className="h-5 w-5 object-contain"
                 />
@@ -41,7 +41,7 @@ const About = () => {
               </div>
               <div className="flex items-center gap-2">
                 <img
-                  src="/github.svg"
+                  src="github.svg"
                   alt="GitHub"
                   className="h-5 w-5 object-contain"
                 />
@@ -56,7 +56,7 @@ const About = () => {
                   className="h-5 w-5 object-contain"
                 />
                 <a
-                  href="/cv.pdf"
+                  href="cv.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-base font-medium hover:text-blue-500"
