@@ -5,7 +5,7 @@ const About = () => {
         <div className="pl-50 py-5 flex">
           <div className="w-70 h-70">
             <img
-              src="/me.png"
+              src="portfolio/me.png"
               alt="Me"
               className="w-auto h-auto max-w-xs rounded-lg transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
             />
@@ -41,7 +41,7 @@ const About = () => {
               </div>
               <div className="flex items-center gap-2">
                 <img
-                  src="/github.svg"
+                  src="portfolio/github.svg"
                   alt="GitHub"
                   className="h-5 w-5 object-contain"
                 />
@@ -51,12 +51,12 @@ const About = () => {
               </div>
               <div className="flex items-center gap-2">
                 <img
-                  src="/file.svg"
+                  src="portfolio/file.svg"
                   alt="CV"
                   className="h-5 w-5 object-contain"
                 />
                 <a
-                  href="/cv.pdf"
+                  href="portfolio/cv.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-base font-medium hover:text-blue-500"
