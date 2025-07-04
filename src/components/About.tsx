@@ -21,7 +21,10 @@ const About = () => {
               learn, and the rewarding feeling of progress is what drives my
               motivation.
             </h2>
-            <h3>Skills: Java, SpringBoot, Python, Typescript, Docker, </h3>
+            <h3>
+              Skills: Java, Spring Boot, Python, Typescript, React, MySQL,
+              MongoDB, Next.JS, Docker.
+            </h3>
             <h3 className="pt-2 font-bold text-emerald-400">
               Check out my media:
             </h3>
