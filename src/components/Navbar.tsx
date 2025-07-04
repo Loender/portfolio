@@ -17,13 +17,7 @@ const Navbar = () => {
               href="#education"
               className="text-l font-medium hover:text-blue-500"
             >
-              Education
-            </a>
-            <a
-              href="#experience"
-              className="text-l font-medium hover:text-blue-500"
-            >
-              Experience
+              Education & Experience
             </a>
             <a
               href="#projects"
