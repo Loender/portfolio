@@ -2,15 +2,15 @@
 
 
 
-:root {
+/* :root {
   --background-gradient: linear-gradient(to right, #f3f4f6, #4fd1c5);
   --text-color: #1e293b;
   --accent-color: #319795;
   --hover-color: #245f59;
   --section-color: #3e5250;
-}
+} */
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) { */
   :root {
     --background-gradient: linear-gradient(to right, #1a202c, #234e52);
     --text-color: #e2e8f0;
@@ -18,30 +18,30 @@
     --hover-color: #245f59;
     --section-color: #9adad4;
   }
-}
+/* } */
 
 html {
   scroll-behavior: smooth;
 }
 
-body {
+/* body {
   min-height: 100vh;
   margin: 0;
   background: linear-gradient(to right, #f3f4f6, #4fd1c5);
   color: var(--text-color, #1e293b); /* fallback in case var not loaded */
   font-family: 'Geist Mono', monospace;
-}
+} */
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) { */
   body {
     background: linear-gradient(to right, #1a202c, #234e52);
     color: var(--text-color, #e2e8f0);
     font-family: 'Geist Mono', monospace;
   }
-}
+/* } */
 
 
-a {
+/* a {
   color: var(--accent-color);
   border-bottom: 2px solid transparent;
   transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out;
@@ -51,8 +51,8 @@ a:hover {
   color: var(--hover-color);
   border-color: var(--hover-color);
 }
-
-@media (prefers-color-scheme: dark){
+ */
+/* @media (prefers-color-scheme: dark){ */
   a {
       color: var(--accent-color);
       border-bottom: 2px solid transparent;
@@ -62,16 +62,16 @@ a:hover {
     a:hover {
       color: var(--hover-color);
       border-color: var(--hover-color); }
-}
+/* } */
 
-section{
+/* section{
   color: var(--section-color);
   font-family: 'Geist Sans', monospace;
-}
+} */
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) { */
   section {
     color: var(--section-color);
     font-family: 'Geist Sans', monospace;
   }
-}
+/* } */
