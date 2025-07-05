@@ -27,7 +27,7 @@ const certifications = [
 
 const Certifications = () => {
   return (
-    <div className="min-h-screen px-70 py-20 bg-gray-800/50 text-white">
+    <div className="min-h-screen px-70 py-20 bg-gray-800/50 text-white shadow-lg">
       <h1 className="text-4xl font-bold text-center text-teal-400 mb-10">
         Certifications
       </h1>
@@ -36,7 +36,7 @@ const Certifications = () => {
         {certifications.map((cert, index) => (
           <div
             key={index}
-            className="bg-gray-700/50 rounded-lg shadow-lg overflow-hidden"
+            className="bg-gray-700/50 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 ease-in-out hover:scale-101 hover:shadow-lg"
           >
             <img
               src={cert.image}

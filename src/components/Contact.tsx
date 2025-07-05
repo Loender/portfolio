@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <div className="min-h-screen py-12 flex justify-center items-center">
-      <div className="bg-gray-800/70 rounded-lg p-10 max-w-md w-full text-center text-white">
+      <div className="bg-gray-800/70 rounded-lg p-10 max-w-md w-full text-center text-white shadow-lg">
         <h1 className="font-bold text-4xl text-teal-400 mb-6">
           Let's get in touch
         </h1>

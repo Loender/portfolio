@@ -1,16 +1,16 @@
 const About = () => {
   return (
     <div className="min-h-screen py-50">
-      <div className="bg-gray-800/40 ">
-        <div className="pl-50 py-5 flex">
-          <div className="w-70 h-70">
+      <div className="bg-gray-800/40 shadow-lg">
+        <div className="py-5 pl-50 flex">
+          <div className="w-full max-w-xs">
             <img
               src="me.png"
               alt="Me"
               className="w-auto h-auto max-w-xs rounded-lg transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
             />
           </div>
-          <div className="pl-20 flex-col">
+          <div className="pl-10 flex-col">
             <h1 className="text-3xl text-teal-400 font-bold">About me</h1>
             <h2 className="pt-4 pr-25">
               I'm a curious, detail-oriented, and persistent Software Developer
@@ -21,9 +21,9 @@ const About = () => {
               learn, and the rewarding feeling of progress is what drives my
               motivation.
             </h2>
-            <h3>
-              Skills: Java, Spring Boot, Python, Typescript, React, MySQL,
-              MongoDB, Next.JS, Docker.
+            <h3 className="pt-5 font-bold text-white">
+              Main skills: Java, Spring Boot, Python, Typescript, React (incl.
+              Next.JS), MySQL, MongoDB, Docker.
             </h3>
             <h3 className="pt-2 font-bold text-emerald-400">
               Check out my media:
