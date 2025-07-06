@@ -5,7 +5,7 @@ const Projects = () => {
         My projects
       </h1>
       <div className="flex flex-col lg:flex-row justify-center items-center gap-7">
-        <div className="w-full lg:w-100 h-130 bg-gray-700/50 rounded-md shadow-md transition-transform duration-300 ease-in-out hover:scale-101 hover:shadow-lg">
+        <div className="w-full lg:w-100 h-auto bg-gray-700/50 rounded-md shadow-md transition-transform duration-300 ease-in-out hover:scale-101 hover:shadow-lg">
           <div className="pt-6 bg-gray-600/50 rounded-md border-b border-black ">
             <h1 className="pb-4 flex justify-center font-bold text-2xl">
               Bukovel System
@@ -29,9 +29,9 @@ const Projects = () => {
               <li>Docker</li>
             </ul>
 
-            <div className="pt-5 w-full flex flex-wrap justify-center items-center text-xl">
+            <div className="my-5 w-full flex flex-wrap justify-center items-center text-xl">
               <a
-                href="https://github.com/..."
+                href="https://github.com/chibriki/next-website"
                 target="_blank"
                 className="w-full sm:w-auto max-w-xs px-4 py-2 bg-gray-800 rounded-md hover:bg-gray-400 transition text-base text-center break-words"
               >
@@ -40,7 +40,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="w-full lg:w-100 h-130 bg-gray-700/50 rounded-md shadow-md transition-transform duration-300 ease-in-out hover:scale-101 hover:shadow-lg">
+        <div className="w-full lg:w-100 h-auto bg-gray-700/50 rounded-md shadow-md transition-transform duration-300 ease-in-out hover:scale-101 hover:shadow-lg">
           <div className="pt-6 bg-gray-600/50 rounded-md border-b border-black ">
             <h1 className="pb-4 flex justify-center font-bold text-2xl">
               Discord Bot
@@ -64,7 +64,7 @@ const Projects = () => {
               <li>Python - Flask</li>
             </ul>
 
-            <div className="pt-5 w-full flex flex-wrap justify-center items-center text-xl">
+            <div className="my-5 w-full flex flex-wrap justify-center items-center text-xl">
               <a
                 href="https://github.com/Loender/discord-bot"
                 target="_blank"
@@ -75,7 +75,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="w-full lg:w-100 h-130 bg-gray-700/50 rounded-md shadow-md transition-transform duration-300 ease-in-out hover:scale-101 hover:shadow-lg">
+        <div className="w-full lg:w-100 h-auto bg-gray-700/50 rounded-md shadow-md transition-transform duration-300 ease-in-out hover:scale-101 hover:shadow-lg">
           <div className="pt-6 bg-gray-600/50 rounded-md border-b border-black ">
             <h1 className="pb-4 flex justify-center font-bold text-2xl">
               Book Exchange
@@ -98,7 +98,7 @@ const Projects = () => {
               <li>MySQL (via Hibernate ORM)</li>
             </ul>
 
-            <div className="pt-5 w-full flex flex-wrap justify-center items-center text-xl">
+            <div className="my-5 w-full flex flex-wrap justify-center items-center text-xl">
               <a
                 href="https://github.com/Loender/Book-Exchange"
                 target="_blank"
