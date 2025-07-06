@@ -29,11 +29,11 @@ const Projects = () => {
               <li>Docker</li>
             </ul>
 
-            <div className="pt-5 flex justify-center items-center text-xl">
+            <div className="pt-5 flex flex-wrap justify-center items-center text-xl">
               <a
                 href="https://github.com/chibriki/next-website"
                 target="_blank"
-                className="mt-5 px-4 py-2 bg-gray-800 rounded-md hover:bg-gray-400 transition"
+                className="mt-5 px-4 py-2 bg-gray-800 rounded-md hover:bg-gray-400 transition max-w-full break-words"
               >
                 view on github →
               </a>
@@ -64,11 +64,11 @@ const Projects = () => {
               <li>Python - Flask</li>
             </ul>
 
-            <div className="pt-5 flex justify-center items-center text-xl">
+            <div className="pt-5 flex flex-wrap justify-center items-center text-xl">
               <a
                 href="https://github.com/Loender/discord-bot"
                 target="_blank"
-                className="mt-5 px-4 py-2 bg-gray-800 rounded-md hover:bg-gray-400 transition"
+                className="mt-5 px-4 py-2 bg-gray-800 rounded-md hover:bg-gray-400 transition max-w-full break-words"
               >
                 view on github →
               </a>
@@ -98,11 +98,11 @@ const Projects = () => {
               <li>MySQL (via Hibernate ORM)</li>
             </ul>
 
-            <div className="pt-5 flex justify-center items-center text-xl">
+            <div className="pt-5 flex flex-wrap justify-center items-center text-xl">
               <a
                 href="https://github.com/Loender/Book-Exchange"
                 target="_blank"
-                className="mt-5 px-4 py-2 bg-gray-800 rounded-md hover:bg-gray-400 transition"
+                className="mt-5 px-4 py-2 bg-gray-800 rounded-md hover:bg-gray-400 transition max-w-full break-words"
               >
                 view on github →
               </a>
