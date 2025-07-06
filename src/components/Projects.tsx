@@ -29,11 +29,11 @@ const Projects = () => {
               <li>Docker</li>
             </ul>
 
-            <div className="pt-5 flex flex-wrap justify-center items-center text-xl">
+            <div className="pt-5 w-full flex flex-wrap justify-center items-center text-xl">
               <a
-                href="https://github.com/chibriki/next-website"
+                href="https://github.com/..."
                 target="_blank"
-                className="mt-5 px-4 py-2 bg-gray-800 rounded-md hover:bg-gray-400 transition text-base w-full max-w-xs text-center break-words"
+                className="mt-5 w-full sm:w-auto px-4 py-2 bg-gray-800 rounded-md hover:bg-gray-400 transition text-base text-center break-words"
               >
                 view on github →
               </a>
@@ -64,11 +64,11 @@ const Projects = () => {
               <li>Python - Flask</li>
             </ul>
 
-            <div className="pt-5 flex flex-wrap justify-center items-center text-xl">
+            <div className="pt-5 w-full flex flex-wrap justify-center items-center text-xl">
               <a
                 href="https://github.com/Loender/discord-bot"
                 target="_blank"
-                className="mt-5 px-4 py-2 bg-gray-800 rounded-md hover:bg-gray-400 transition text-base w-full max-w-xs text-center break-words"
+                className="mt-5 w-full sm:w-auto px-4 py-2 bg-gray-800 rounded-md hover:bg-gray-400 transition text-base text-center break-words"
               >
                 view on github →
               </a>
@@ -98,11 +98,11 @@ const Projects = () => {
               <li>MySQL (via Hibernate ORM)</li>
             </ul>
 
-            <div className="pt-5 flex flex-wrap justify-center items-center text-xl">
+            <div className="pt-5 w-full flex flex-wrap justify-center items-center text-xl">
               <a
                 href="https://github.com/Loender/Book-Exchange"
                 target="_blank"
-                className="mt-5 px-4 py-2 bg-gray-800 rounded-md hover:bg-gray-400 transition text-base w-full max-w-xs text-center break-words"
+                className="mt-5 w-full sm:w-auto px-4 py-2 bg-gray-800 rounded-md hover:bg-gray-400 transition text-base text-center break-words"
               >
                 view on github →
               </a>
