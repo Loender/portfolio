@@ -1,7 +1,9 @@
 const Projects = () => {
   return (
     <div className="min-h-screen py-30 px-20">
-      <h1 className="pl-35 pb-10 font-bold text-4xl">My projects:</h1>
+      <h1 className="flex justify-center pb-10 font-bold text-4xl">
+        My projects
+      </h1>
       <div className="flex justify-center items-center gap-7">
         <div className="w-100 h-130 bg-gray-700/50 rounded-md shadow-md transition-transform duration-300 ease-in-out hover:scale-101 hover:shadow-lg">
           <div className="pt-6 bg-gray-600/50 rounded-md border-b border-black ">
@@ -16,12 +18,17 @@ const Projects = () => {
               app with secure authentication, dynamic routing, and internal APIs
               using TypeScript.
             </h1>
-            <h1 className="pt-5">Technologies used:</h1>
-            <li>Next.js</li>
-            <li>TypeScript</li>
-            <li>SCSS</li>
-            <li>MySQL (via Prisma ORM)</li>
-            <li>Docker</li>
+            <h1 className="pt-5 font-semibold text-teal-200">
+              Technologies used:
+            </h1>
+            <ul className="list-disc pl-6 pt-2 font-semibold">
+              <li>Next.js</li>
+              <li>TypeScript</li>
+              <li>SCSS</li>
+              <li>MySQL (via Prisma ORM)</li>
+              <li>Docker</li>
+            </ul>
+
             <div className="pt-5 flex justify-center items-center text-xl">
               <a
                 href="https://github.com/chibriki/next-website"
@@ -46,12 +53,17 @@ const Projects = () => {
               detection and tool mapping. Connected to external APIs and
               implemented async operations.
             </h1>
-            <h1 className="pt-5">Technologies used:</h1>
-            <li>Java</li>
-            <li>Gradle</li>
-            <li>JDA</li>
-            <li>Lavaplayer</li>
-            <li>Python - Flask</li>
+            <h1 className="pt-5 font-semibold text-teal-200">
+              Technologies used:
+            </h1>
+            <ul className="list-disc pl-6 pt-2 font-semibold">
+              <li>Java</li>
+              <li>Gradle</li>
+              <li>JDA</li>
+              <li>Lavaplayer</li>
+              <li>Python - Flask</li>
+            </ul>
+
             <div className="pt-5 flex justify-center items-center text-xl">
               <a
                 href="https://github.com/Loender/discord-bot"
@@ -76,11 +88,16 @@ const Projects = () => {
               MySQL for data persistence. Implemented robust validation and
               error handling for a smooth user experience.
             </h1>
-            <h1 className="pt-5">Technologies used:</h1>
-            <li>Java</li>
-            <li>SpringBoot</li>
-            <li>JavaFX</li>
-            <li>MySQL (via Hibernate ORM)</li>
+            <h1 className="pt-5 font-semibold text-teal-200">
+              Technologies used:
+            </h1>
+            <ul className="list-disc pl-6 pt-2 font-semibold">
+              <li>Java</li>
+              <li>Spring Boot</li>
+              <li>JavaFX</li>
+              <li>MySQL (via Hibernate ORM)</li>
+            </ul>
+
             <div className="pt-5 flex justify-center items-center text-xl">
               <a
                 href="https://github.com/Loender/Book-Exchange"

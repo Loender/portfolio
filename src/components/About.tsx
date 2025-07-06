@@ -99,53 +99,61 @@ const About = () => {
       </div>
       <div className="pt-2 flex justify-center">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 w-250">
-          <div className="rounded-lg bg-gray-700/50 shadow-lg">
+          <div className="rounded-lg bg-gray-700/50 shadow-lg transition-transform duration-300 ease-in-out hover:scale-103">
             <div className="pt-2 flex justify-center font-bold bg-gray-700 rounded-lg shadow-lg">
               Back End
             </div>
             <ul className="list-disc pl-6 pt-2 space-y-1">
               {backEndLanguages.map((lang) => (
                 <li key={lang.name}>
-                  <h3 className="text-lg font-semibold">{lang.name}</h3>
+                  <h3 className="text-lg text-white font-semibold">
+                    {lang.name}
+                  </h3>
                   <p className="text-gray-400 text-sm">{lang.exp}</p>
                 </li>
               ))}
             </ul>
           </div>
-          <div className="rounded-lg bg-gray-700/50 shadow-lg">
+          <div className="rounded-lg bg-gray-700/50 shadow-lg transition-transform duration-300 ease-in-out hover:scale-103">
             <div className="pt-2 flex justify-center font-bold bg-gray-700 rounded-lg shadow-lg">
               Web Development
             </div>
             <ul className="list-disc pl-6 pt-2 space-y-1">
               {webDevLanguages.map((lang) => (
                 <li key={lang.name}>
-                  <h3 className="text-lg font-semibold">{lang.name}</h3>
+                  <h3 className="text-lg text-white font-semibold">
+                    {lang.name}
+                  </h3>
                   <p className="text-gray-400 text-sm">{lang.exp}</p>
                 </li>
               ))}
             </ul>
           </div>
-          <div className="rounded-lg bg-gray-700/50 shadow-lg">
+          <div className="rounded-lg bg-gray-700/50 shadow-lg transition-transform duration-300 ease-in-out hover:scale-103">
             <div className="pt-2 flex justify-center font-bold bg-gray-700 rounded-lg shadow-lg">
               Databases
             </div>
             <ul className="list-disc pl-6 pt-2 space-y-1">
               {DB.map((lang) => (
                 <li key={lang.name}>
-                  <h3 className="text-lg font-semibold">{lang.name}</h3>
+                  <h3 className="text-lg text-white font-semibold">
+                    {lang.name}
+                  </h3>
                   <p className="text-gray-400 text-sm">{lang.exp}</p>
                 </li>
               ))}
             </ul>
           </div>
-          <div className="rounded-lg bg-gray-700/50 shadow-lg">
+          <div className="rounded-lg bg-gray-700/50 shadow-lg transition-transform duration-300 ease-in-out hover:scale-103">
             <div className="pt-2 flex justify-center font-bold bg-gray-700 rounded-lg shadow-lg">
               Dev Tools & Tech
             </div>
             <ul className="list-disc pl-6 pt-2 space-y-1">
               {devTools.map((lang) => (
                 <li key={lang.name}>
-                  <h3 className="text-lg font-semibold">{lang.name}</h3>
+                  <h3 className="text-lg text-white font-semibold">
+                    {lang.name}
+                  </h3>
                   <p className="text-gray-400 text-sm">{lang.exp}</p>
                 </li>
               ))}
