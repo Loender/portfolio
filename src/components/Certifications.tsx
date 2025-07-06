@@ -27,7 +27,7 @@ const certifications = [
 
 const Certifications = () => {
   return (
-    <div className="min-h-screen px-70 py-20 bg-gray-800/20 text-white shadow-lg">
+    <div className="min-h-screen px-6 sm:px-20 md:px-40 lg:px-70 py-20 bg-gray-800/20 text-white shadow-lg">
       <h1 className="text-4xl font-bold text-center text-teal-400 mb-10">
         Certifications
       </h1>

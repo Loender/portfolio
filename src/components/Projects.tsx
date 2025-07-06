@@ -1,11 +1,11 @@
 const Projects = () => {
   return (
-    <div className="min-h-screen py-30 px-20">
+    <div className="min-h-screen py-30 px-6 lg:px-20">
       <h1 className="flex justify-center pb-10 font-bold text-4xl">
         My projects
       </h1>
-      <div className="flex justify-center items-center gap-7">
-        <div className="w-100 h-130 bg-gray-700/50 rounded-md shadow-md transition-transform duration-300 ease-in-out hover:scale-101 hover:shadow-lg">
+      <div className="flex flex-col lg:flex-row justify-center items-center gap-7">
+        <div className="w-full lg:w-100 h-130 bg-gray-700/50 rounded-md shadow-md transition-transform duration-300 ease-in-out hover:scale-101 hover:shadow-lg">
           <div className="pt-6 bg-gray-600/50 rounded-md border-b border-black ">
             <h1 className="pb-4 flex justify-center font-bold text-2xl">
               Bukovel System
@@ -40,7 +40,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="w-100 h-130 bg-gray-700/50 rounded-md shadow-md transition-transform duration-300 ease-in-out hover:scale-101 hover:shadow-lg">
+        <div className="w-full lg:w-100 h-130 bg-gray-700/50 rounded-md shadow-md transition-transform duration-300 ease-in-out hover:scale-101 hover:shadow-lg">
           <div className="pt-6 bg-gray-600/50 rounded-md border-b border-black ">
             <h1 className="pb-4 flex justify-center font-bold text-2xl">
               Discord Bot
@@ -75,7 +75,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="w-100 h-130 bg-gray-700/50 rounded-md shadow-md transition-transform duration-300 ease-in-out hover:scale-101 hover:shadow-lg">
+        <div className="w-full lg:w-100 h-130 bg-gray-700/50 rounded-md shadow-md transition-transform duration-300 ease-in-out hover:scale-101 hover:shadow-lg">
           <div className="pt-6 bg-gray-600/50 rounded-md border-b border-black ">
             <h1 className="pb-4 flex justify-center font-bold text-2xl">
               Book Exchange

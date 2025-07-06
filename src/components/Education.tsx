@@ -1,12 +1,12 @@
 const Education = () => {
   return (
-    <div className="py-16 px-100">
+    <div className="py-16 px-6 sm:px-20 md:px-40 lg:px-100">
       <h2 className="text-4xl font-bold mb-16 text-center">
         Education and Experience
       </h2>
-      <div className="relative border-l-4 border-teal-400 pl-15 space-y-10">
-        <div className="relative ml-4 transition-all duration-700 timeline-entry opacity-100 translate-x-0">
-          <div className="absolute -left-8 top-1 w-5 h-5 bg-teal-400 rounded-full border-4 border-teal"></div>
+      <div className="relative border-l-4 border-teal-400 pl-6 sm:pl-10 md:pl-15 space-y-10">
+        <div className="relative ml-2 sm:ml-4 transition-all duration-700 timeline-entry opacity-100 translate-x-0">
+          <div className="absolute -left-5 sm:-left-8 top-1 w-5 h-5 bg-teal-400 rounded-full border-4 border-teal"></div>
           <h3 className="text-2xl text-white font-semibold">
             Gymnasium 172 "Nyvky"
           </h3>
@@ -19,8 +19,8 @@ const Education = () => {
           </p>
         </div>
 
-        <div className="relative ml-4 transition-all duration-700 timeline-entry opacity-100 translate-x-0">
-          <div className="absolute -left-8 top-1 w-5 h-5 bg-teal-400 rounded-full border-4 border-teal"></div>
+        <div className="relative ml-2 sm:ml-4 transition-all duration-700 timeline-entry opacity-100 translate-x-0">
+          <div className="absolute -left-5 sm:-left-8 top-1 w-5 h-5 bg-teal-400 rounded-full border-4 border-teal"></div>
           <h3 className="text-2xl text-white font-semibold">
             Slovenská technická univerzita
           </h3>
@@ -29,8 +29,8 @@ const Education = () => {
           </p>
         </div>
 
-        <div className="relative ml-4 transition-all duration-700 timeline-entry opacity-100 translate-x-0">
-          <div className="absolute -left-8 top-1 w-5 h-5 bg-teal-400 rounded-full border-4 border-teal"></div>
+        <div className="relative ml-2 sm:ml-4 transition-all duration-700 timeline-entry opacity-100 translate-x-0">
+          <div className="absolute -left-5 sm:-left-8 top-1 w-5 h-5 bg-teal-400 rounded-full border-4 border-teal"></div>
           <h3 className="text-2xl text-white font-semibold">
             Vilnius Gediminas Technical University
           </h3>
@@ -39,8 +39,8 @@ const Education = () => {
           </p>
         </div>
 
-        <div className="relative ml-4 transition-all duration-700 timeline-entry opacity-100 translate-x-0">
-          <div className="absolute -left-8 top-1 w-5 h-5 bg-teal-400 rounded-full border-4 border-teal"></div>
+        <div className="relative ml-2 sm:ml-4 transition-all duration-700 timeline-entry opacity-100 translate-x-0">
+          <div className="absolute -left-5 sm:-left-8 top-1 w-5 h-5 bg-teal-400 rounded-full border-4 border-teal"></div>
           <h3 className="text-2xl text-white font-semibold">
             English-Russian Interpreter
           </h3>
@@ -55,8 +55,8 @@ const Education = () => {
           </p>
         </div>
 
-        <div className="relative ml-4 transition-all duration-700 timeline-entry opacity-100 translate-x-0">
-          <div className="absolute -left-8 top-1 w-5 h-5 bg-teal-400 rounded-full border-4 border-teal"></div>
+        <div className="relative ml-2 sm:ml-4 transition-all duration-700 timeline-entry opacity-100 translate-x-0">
+          <div className="absolute -left-5 sm:-left-8 top-1 w-5 h-5 bg-teal-400 rounded-full border-4 border-teal"></div>
           <h3 className="text-2xl text-white font-semibold">
             Part-time Freelance + Studying
           </h3>

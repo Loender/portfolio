@@ -29,17 +29,17 @@ const About = () => {
   return (
     <div className="min-h-screen pt-22">
       <div className="bg-gray-800/40 shadow-lg">
-        <div className="py-2 pl-50 flex">
-          <div className="flex items-center pr-6">
+        <div className="py-2 pl-6 sm:pl-50 flex flex-col sm:flex-row">
+          <div className="flex justify-center sm:items-center pr-0 sm:pr-6 pb-4 sm:pb-0">
             <img
               src="me.png"
               alt="Me"
-              className="max-w-[290px] h-auto rounded-lg transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
+              className="max-w-[290px] w-full sm:w-[290px] h-auto rounded-lg transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
             />
           </div>
-          <div className="flex-col pl-">
+          <div className="flex-col">
             <h1 className="text-3xl text-teal-400 font-bold">About me</h1>
-            <h2 className="pt-4 pr-25">
+            <h2 className="pt-4 pr-4 sm:pr-25">
               I'm a curious, detail-oriented, and persistent Software Developer
               from Ukraine, Kyiv with a passion for continuous learning and
               problem-solving. I believe effective communication is key to
