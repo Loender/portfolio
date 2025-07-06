@@ -33,7 +33,7 @@ const Projects = () => {
               <a
                 href="https://github.com/chibriki/next-website"
                 target="_blank"
-                className="mt-5 px-4 py-2 bg-gray-800 rounded-md hover:bg-gray-400 transition max-w-full break-words"
+                className="mt-5 px-4 py-2 bg-gray-800 rounded-md hover:bg-gray-400 transition text-base w-full max-w-xs text-center break-words"
               >
                 view on github →
               </a>
@@ -68,7 +68,7 @@ const Projects = () => {
               <a
                 href="https://github.com/Loender/discord-bot"
                 target="_blank"
-                className="mt-5 px-4 py-2 bg-gray-800 rounded-md hover:bg-gray-400 transition max-w-full break-words"
+                className="mt-5 px-4 py-2 bg-gray-800 rounded-md hover:bg-gray-400 transition text-base w-full max-w-xs text-center break-words"
               >
                 view on github →
               </a>
@@ -102,7 +102,7 @@ const Projects = () => {
               <a
                 href="https://github.com/Loender/Book-Exchange"
                 target="_blank"
-                className="mt-5 px-4 py-2 bg-gray-800 rounded-md hover:bg-gray-400 transition max-w-full break-words"
+                className="mt-5 px-4 py-2 bg-gray-800 rounded-md hover:bg-gray-400 transition text-base w-full max-w-xs text-center break-words"
               >
                 view on github →
               </a>
